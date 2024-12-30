@@ -15,6 +15,8 @@ curl -H "Authorization: Bearer YOUR_TOKEN" https://neodb.social/api/me
 
 在 wordpress 页面中使用短代码 [neodb_page]，即可显示！
 
+![image](https://github.com/user-attachments/assets/7815fbe4-ba59-4ee3-a8da-48ff87808328)
+
 ### 更新日志
 1.1 - 新增手动更新按钮。   
 1.2 -   
