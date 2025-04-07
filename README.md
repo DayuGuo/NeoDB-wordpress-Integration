@@ -1,6 +1,13 @@
-完整介绍：[WordPress 插件-NeoDB Integration 书影音展示页面](https://anotherdayu.com/2024/6322/)
+### 新版本
+
+初版介绍：[WordPress 插件-NeoDB Integration 书影音展示页面](https://anotherdayu.com/2024/6322/)
+
+1.2 – Jack，[NeoDB WordPress 插件优化](https://veryjack.com/technique/neodb-wordpress-plugin/)
+
+1.3 – 皮小辛，[WordPress 插件-NeoDB Integration优化（1.3版本）](https://www.zijuruoxin.com/tech/archives/560)
 
 ### 使用方法
+
 在 [NeoDB API Developer Console](https://neodb.social/developer/) 中点击`Test Access Token`，并 Generate 一个 NeoDB Bearer Token，示例：`Th2121_qs-8agMAlSrkE_tzBbcvjsdkjtlCtr9QHX321312312Ytzo8_YmOxjxg` 。
 
 在终端（Terminal）或命令提示符（Command Prompt）中输入以下代码，将 YOUR_TOKEN 替换为 NeoDB Bearer Token。
@@ -18,8 +25,12 @@ curl -H "Authorization: Bearer YOUR_TOKEN" https://neodb.social/api/me
 ![image](https://github.com/user-attachments/assets/7815fbe4-ba59-4ee3-a8da-48ff87808328)
 
 ### 更新日志
-1.1 - 新增手动更新按钮。   
-1.2 -   
+1.1 
+
+- 新增手动更新按钮。   
+
+1.2 
+
 * 短代码修改为了 [neodb_page]，无需输入其他参数。
 * 修改了样式，改为了垂直排布，并且适配了手机。
 * 顶部添加类型按钮，现在可以直接选择。
@@ -31,6 +42,14 @@ curl -H "Authorization: Bearer YOUR_TOKEN" https://neodb.social/api/me
 * 将 CSS 代码从 php 分离出来，便于后期管理。
 * 可参考文章 [NeoDB WordPress 插件优化](https://veryjack.com/technique/neodb-wordpress-plugin/)
 
+1.3 
 
-参考资料：
+- 添加分类显示顺序自定义功能，可以通过拖拽调整分类的显示顺序
+- 优化了不同分类下状态文本的显示逻辑
+- 优化分类设置界面，整合了启用/禁用和排序功能
+- 改进了分类显示逻辑，更好地处理禁用分类的情况
+
+
+
+### 参考资料：
 hcplantern 的 [将 NeoDB 记录整合到 Hugo 中](https://hcplantern.top/posts/neodb-in-hugo/) 
