@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: NeoDB Integration
-Description: Integrates NeoDB records into WordPress using a shortcode | From zijuruoxin
+Description: Integrates NeoDB records into WordPress using a shortcode
 Version: 1.3
 Author: ruoxin, Jack and Dayu
 */
